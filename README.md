@@ -205,4 +205,4 @@ These are facts about the code. They matter when the results are compared, but I
 
 ## Running the notebook
 
-The notebook was written for Google Colab (T4 GPU) and expects the outputs of Notebook 1 on Google Drive (BC-ResNet checkpoints, the mel cache, and `file_list.json`). Notebook 1 is not in this repository, so the notebook cannot be rerun from this repository alone.
+The notebook was written for Google Colab (T4 GPU) and expects BC-ResNet checkpoints, the mel cache, and `file_list.json` on Google Drive . Those are not in this repository, so the notebook cannot be rerun from this repository alone.
