@@ -8,7 +8,6 @@ This repository reports an experiment that applies a sparse autoencoder (SAE) to
 
 I wrote the hypotheses and their pass criteria before running the analysis. The short answer is: **H1 did not pass, H2 passed for some phones, and H3 did not pass.** In other words, removing a phone's latents could break the matching words, but adding the same kind of direction did not change the prediction.
 
-> **Status: results only.** Everything here comes from the outputs saved in one notebook run. The trained models, the SAE checkpoints, and the activation dumps no longer exist, so I could not run any further checks. The notebook that trains BC-ResNet and builds the mel cache ("Notebook 1") is not included. For these reasons, the notebook in this repository cannot be rerun as it is.
 
 Context: this work was done during a research internship at the SLPR Lab, Sungkyunkwan University (2026-04 – 2026-09).
 
@@ -18,7 +17,7 @@ Context: this work was done during a research internship at the SLPR Lab, Sungky
 
 | Path | What it is |
 |---|---|
-| `notebooks/02_sae_experiments.ipynb` | The analysis notebook with its saved outputs. I translated the comments and markdown cells into English. The code and the outputs are unchanged, except that download progress-bar widgets were removed. |
+| `notebooks/sae_experiments.ipynb` | The analysis notebook with its saved outputs. I translated the comments and markdown cells into English. The code and the outputs are unchanged, except that download progress-bar widgets were removed. |
 | `figures/` | The figures, extracted from the notebook outputs without changes |
 | `results/sae_runs_printed.csv` | The hub-and-spoke table, copied from the printed output of cell 6c |
 | `results/ablation_main_printed.csv` | The per-phone ablation results, copied from the printed output of cell 10a (4 decimal places, as printed) |
